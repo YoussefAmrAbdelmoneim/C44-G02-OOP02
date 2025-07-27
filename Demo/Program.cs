@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using Demo.Encapsulation;
+
+namespace Demo
 {
     internal class Program
     {
@@ -57,6 +59,13 @@
 
             #endregion
 
+            #endregion
+            #region Encapsulation
+            //Employee emp1 = new Employee();
+            //emp1.setName("Ahmed");
+            //Console.WriteLine(emp1.GetName());
+            //emp1.Salary = 1;
+            //Console.WriteLine(emp1.Salary);
             #endregion
         }
     }
