@@ -31,6 +31,38 @@
             //double distance = Point.Distance(p1, p2);
             //Console.WriteLine(distance);
             #endregion
+            #region Q3
+            //Console.Write("Please enter Name of the first person: ");
+            //string name1 = Console.ReadLine() ?? "";
+            //Console.Write("Please enter age of the first person: ");
+            //int.TryParse(Console.ReadLine(),out int age1);
+            //Person p1 = new Person(name1,age1);
+            //Console.Write("Please enter Name of the second person: ");
+            //string name2 = Console.ReadLine() ?? "";
+            //Console.Write("Please enter age of the second person: ");
+            //int.TryParse(Console.ReadLine(), out int age2);
+            //Person p2 = new Person(name2, age2);
+            //Console.Write("Please enter Name of the third person: ");
+            //string name3 = Console.ReadLine() ?? "";
+            //Console.Write("Please enter age of the third person: ");
+            //int.TryParse(Console.ReadLine(), out int age3);
+            //Person p3 = new Person(name3, age3);
+            //if (p1.Age > p2.Age && p1.Age > p3.Age)
+            //{
+            //    Console.WriteLine("Olders Person:");
+            //    Console.WriteLine(p1);
+            //}
+            //else if (p2.Age > p1.Age && p2.Age > p3.Age)
+            //{
+            //    Console.WriteLine("Olders Person:");
+            //    Console.WriteLine(p2);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Olders Person:");
+            //    Console.WriteLine(p3);
+            //}
+            #endregion
         }
     }
 }
