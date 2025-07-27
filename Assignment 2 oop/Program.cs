@@ -63,6 +63,12 @@
             //    Console.WriteLine(p3);
             //}
             #endregion
+            #region Q4
+            //Rectangle r = new Rectangle();
+            //r.setWidth(10);
+            //r.setHeight(20);
+            //r.DisplayInfo();
+            #endregion
         }
     }
 }
