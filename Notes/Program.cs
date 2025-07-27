@@ -20,6 +20,24 @@
              */
             //This protects the internal data and ensures that it can only be modified in a controlled way.
             #endregion
+            #region Properties
+            //Full Property
+            /*
+             * Property where you can define the get and set accessors with custom business logic, 
+             * make you have more control over how values are retrieved or assigned
+             */
+
+            //Automatic Property
+            /*
+             * The C# compiler generates private backing fields for these properties behind the scenes
+             */
+
+            //Indexer
+            /*
+             * Is a Special Property [Named With Keyword This and Can Take Parameters]
+               that allows instances of a class or struct to be indexed like arrays.
+             */
+            #endregion
         }
     }
 }
