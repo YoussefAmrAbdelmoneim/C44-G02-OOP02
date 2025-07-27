@@ -67,6 +67,18 @@ namespace Demo
             //emp1.Salary = 1;
             //Console.WriteLine(emp1.Salary);
             #endregion
+            #region phoneBook
+            PhoneNotebook notebook = new PhoneNotebook(3);
+            Console.WriteLine(notebook.Size);
+            notebook.AddNewPerson(0, "Ali", 123);
+            notebook.AddNewPerson(1, "Samy", 456);
+            notebook.AddNewPerson(2, "Mona", 789);
+            notebook.AddNewPerson(3, "Ahmed", 1010);
+            notebook.GetNumber("Samy");
+            notebook.setNumber("Samy", 999);
+            notebook["Samy"] = 999; //Set using Indexer as Setter
+            Console.WriteLine(notebook["Mona"]); //Get using Indexer as Getter
+            #endregion
         }
     }
 }
