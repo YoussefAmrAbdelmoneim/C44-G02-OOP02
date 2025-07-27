@@ -24,6 +24,7 @@ namespace Demo.Encapsulation
         }
         #endregion
         #region Applying Encapsulation using new approach property
+        //full property
         public decimal Salary
         {
             get
@@ -34,6 +35,27 @@ namespace Demo.Encapsulation
                 salary = value;
             }
         }
+        //Automatic property
+        public int Age { get; set; }
+        public decimal Deduction
+        {
+            get
+            {
+                return salary * 0.1M;
+            }
+        }
+        //Code snippets
+        //prop
+        public int MyProperty { get; set; }
+        //propfull
+        private int myVar;
+
+        public int MyVar
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
+
         #endregion
 
         #region Constructor
